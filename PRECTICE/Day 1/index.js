@@ -1,13 +1,17 @@
-const fs = require("fs");
+// const {addSum , subSum} = require('./math');
+
+// console.log("value is" , addSum(4 ,5));
+// console.log("value is" , subSum(10 ,5));     
 
 
-// fs.writeFileSync('./text.txt' , "First day of Node");
 
 
-// fs.unlinkSync('./text.txt');
 
-// syntex
-// fs.readFileSync(path[, options])
+// const {add , sub} = require('./math');
 
-const file = fs.readFileSync('./text.txt' , "utf-8", (err) => {})
-console.log(file.tostring());
+// console.log("value Is" , add(6 ,7));
+// console.log("value Is" , sub(20 ,10));
+
+
+
+
